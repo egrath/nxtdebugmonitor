@@ -1,0 +1,13 @@
+INPUT(
+./release\main.o
+./release\MainWindow.o
+./release\SerialPortListener.o
+./release\PreferencesDialog.o
+./release\SettingsManager.o
+./release\SerialPort.o
+./release\NXTDecoder.o
+./release\moc_MainWindow.o
+./release\moc_SerialPortListener.o
+./release\moc_PreferencesDialog.o
+./release\qrc_resources.o
+);
