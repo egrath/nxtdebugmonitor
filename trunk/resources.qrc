@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>icons/network-wireless.png</file>
+    <file>icons/accessories-text-editor.png</file>
+    <file>icons/document-save-as.png</file>
+    <file>icons/process-stop.png</file>
+  </qresource>
+</RCC>
