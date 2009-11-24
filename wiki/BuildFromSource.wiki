@@ -20,4 +20,4 @@ mingw32-make -f Makefile.Debug
 }}}
 
 when the build process if finished your should have a executable in debug/
-If you want additional debugging messages, change the project type to "console" instead of "windows" in the DebugMonitor.pro file, run qmake and rebuild.
+If you want additional debugging messages, change the project type to "console" instead of "windows" in the DebugMonitor`.`pro file, run qmake and rebuild.
