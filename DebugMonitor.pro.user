@@ -79,9 +79,6 @@
    <valuelist key="abstractProcess.Environment" type="QVariantList">
     <value type="QString">ALLUSERSPROFILE=C:\ProgramData</value>
     <value type="QString">APPDATA=C:\Users\er\AppData\Roaming</value>
-    <value type="QString">COM.ADOBE.VERSIONCUE.CLIENT.APPLOCALE=de_DE</value>
-    <value type="QString">COM.ADOBE.VERSIONCUE.CLIENT.APPNAME=AdobeDrive</value>
-    <value type="QString">COM.ADOBE.VERSIONCUE.CLIENT.APPVERSION=1.0.0</value>
     <value type="QString">COMMONPROGRAMFILES=C:\Program Files (x86)\Common Files</value>
     <value type="QString">COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files</value>
     <value type="QString">COMMONPROGRAMW6432=C:\Program Files\Common Files</value>
@@ -99,7 +96,7 @@
     <value type="QString">LOGONSERVER=\\WINDWALKER</value>
     <value type="QString">NUMBER_OF_PROCESSORS=3</value>
     <value type="QString">OS=Windows_NT</value>
-    <value type="QString">PATH=C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\qt\bin;C:\Program Files (x86)\PC Connectivity Solution\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files (x86)\Common Files\Autodesk Shared\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Autodesk\Backburner\;C:\VXIPNP\WinNT\Bin;C:\Windows\system32\wbem;C:\Program Files (x86)\IVT Corporation\BlueSoleil\Mobile;C:\SysTools;C:\Program Files\Java\jdk1.6.0_14\bin;C:\Program Files\Java\jre6\bin;C:\Python26;C:\Program Files (x86)\SVN\bin;C:\Irrlicht\src\bin\Win32-VisualStudio;C:\Qt\2009.05-rc1\qt\bin;C:\Qt\2009.05-rc1\bin;C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\mingw\mingw32\bin</value>
+    <value type="QString">PATH=C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\qt\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files (x86)\Common Files\Autodesk Shared\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Autodesk\Backburner\;C:\VXIPNP\WinNT\Bin;C:\Windows\system32\wbem;C:\Program Files (x86)\IVT Corporation\BlueSoleil\Mobile;C:\SysTools;C:\Program Files\Java\jdk1.6.0_14\bin;C:\Program Files\Java\jre6\bin;C:\Python26;C:\Program Files (x86)\SVN\bin;C:\Irrlicht\src\bin\Win32-VisualStudio;C:\Qt\2009.05-rc1\qt\bin;C:\Qt\2009.05-rc1\bin;C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\mingw\mingw32\bin</value>
     <value type="QString">PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC</value>
     <value type="QString">PROCESSOR_ARCHITECTURE=x86</value>
     <value type="QString">PROCESSOR_ARCHITEW6432=AMD64</value>
@@ -126,14 +123,14 @@
     <value type="QString">WINDIR=C:\Windows</value>
    </valuelist>
    <valuelist key="abstractProcess.arguments" type="QVariantList">
-    <value type="QString">D:/Temp/DebugMonitor/DebugMonitor.pro</value>
+    <value type="QString">D:/Home/er/Projects/nxtdebugmonitor/DebugMonitor.pro</value>
     <value type="QString">-spec</value>
     <value type="QString">win32-g++</value>
     <value type="QString">-r</value>
    </valuelist>
    <value key="abstractProcess.command" type="QString">c:/qt/2009.05-rc1/qt/bin/qmake.exe</value>
    <value key="abstractProcess.enabled" type="bool">true</value>
-   <value key="abstractProcess.workingDirectory" type="QString">D:/Temp/DebugMonitor</value>
+   <value key="abstractProcess.workingDirectory" type="QString">D:/Home/er/Projects/nxtdebugmonitor</value>
   </valuemap>
  </data>
  <data>
@@ -143,9 +140,6 @@
    <valuelist key="abstractProcess.Environment" type="QVariantList">
     <value type="QString">ALLUSERSPROFILE=C:\ProgramData</value>
     <value type="QString">APPDATA=C:\Users\er\AppData\Roaming</value>
-    <value type="QString">COM.ADOBE.VERSIONCUE.CLIENT.APPLOCALE=de_DE</value>
-    <value type="QString">COM.ADOBE.VERSIONCUE.CLIENT.APPNAME=AdobeDrive</value>
-    <value type="QString">COM.ADOBE.VERSIONCUE.CLIENT.APPVERSION=1.0.0</value>
     <value type="QString">COMMONPROGRAMFILES=C:\Program Files (x86)\Common Files</value>
     <value type="QString">COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files</value>
     <value type="QString">COMMONPROGRAMW6432=C:\Program Files\Common Files</value>
@@ -163,7 +157,7 @@
     <value type="QString">LOGONSERVER=\\WINDWALKER</value>
     <value type="QString">NUMBER_OF_PROCESSORS=3</value>
     <value type="QString">OS=Windows_NT</value>
-    <value type="QString">PATH=C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\qt\bin;C:\Program Files (x86)\PC Connectivity Solution\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files (x86)\Common Files\Autodesk Shared\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Autodesk\Backburner\;C:\VXIPNP\WinNT\Bin;C:\Windows\system32\wbem;C:\Program Files (x86)\IVT Corporation\BlueSoleil\Mobile;C:\SysTools;C:\Program Files\Java\jdk1.6.0_14\bin;C:\Program Files\Java\jre6\bin;C:\Python26;C:\Program Files (x86)\SVN\bin;C:\Irrlicht\src\bin\Win32-VisualStudio;C:\Qt\2009.05-rc1\qt\bin;C:\Qt\2009.05-rc1\bin;C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\mingw\mingw32\bin</value>
+    <value type="QString">PATH=C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\qt\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files (x86)\Common Files\Autodesk Shared\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Autodesk\Backburner\;C:\VXIPNP\WinNT\Bin;C:\Windows\system32\wbem;C:\Program Files (x86)\IVT Corporation\BlueSoleil\Mobile;C:\SysTools;C:\Program Files\Java\jdk1.6.0_14\bin;C:\Program Files\Java\jre6\bin;C:\Python26;C:\Program Files (x86)\SVN\bin;C:\Irrlicht\src\bin\Win32-VisualStudio;C:\Qt\2009.05-rc1\qt\bin;C:\Qt\2009.05-rc1\bin;C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\mingw\mingw32\bin</value>
     <value type="QString">PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC</value>
     <value type="QString">PROCESSOR_ARCHITECTURE=x86</value>
     <value type="QString">PROCESSOR_ARCHITEW6432=AMD64</value>
@@ -195,7 +189,7 @@
    </valuelist>
    <value key="abstractProcess.command" type="QString">C:/Qt/2009.05-rc1/mingw/bin/mingw32-make.exe</value>
    <value key="abstractProcess.enabled" type="bool">true</value>
-   <value key="abstractProcess.workingDirectory" type="QString">D:/Temp/DebugMonitor</value>
+   <value key="abstractProcess.workingDirectory" type="QString">D:/Home/er/Projects/nxtdebugmonitor</value>
   </valuemap>
  </data>
  <data>
@@ -205,9 +199,6 @@
    <valuelist key="abstractProcess.Environment" type="QVariantList">
     <value type="QString">ALLUSERSPROFILE=C:\ProgramData</value>
     <value type="QString">APPDATA=C:\Users\er\AppData\Roaming</value>
-    <value type="QString">COM.ADOBE.VERSIONCUE.CLIENT.APPLOCALE=de_DE</value>
-    <value type="QString">COM.ADOBE.VERSIONCUE.CLIENT.APPNAME=AdobeDrive</value>
-    <value type="QString">COM.ADOBE.VERSIONCUE.CLIENT.APPVERSION=1.0.0</value>
     <value type="QString">COMMONPROGRAMFILES=C:\Program Files (x86)\Common Files</value>
     <value type="QString">COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files</value>
     <value type="QString">COMMONPROGRAMW6432=C:\Program Files\Common Files</value>
@@ -225,7 +216,7 @@
     <value type="QString">LOGONSERVER=\\WINDWALKER</value>
     <value type="QString">NUMBER_OF_PROCESSORS=3</value>
     <value type="QString">OS=Windows_NT</value>
-    <value type="QString">PATH=C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\qt\bin;C:\Program Files (x86)\PC Connectivity Solution\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files (x86)\Common Files\Autodesk Shared\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Autodesk\Backburner\;C:\VXIPNP\WinNT\Bin;C:\Windows\system32\wbem;C:\Program Files (x86)\IVT Corporation\BlueSoleil\Mobile;C:\SysTools;C:\Program Files\Java\jdk1.6.0_14\bin;C:\Program Files\Java\jre6\bin;C:\Python26;C:\Program Files (x86)\SVN\bin;C:\Irrlicht\src\bin\Win32-VisualStudio;C:\Qt\2009.05-rc1\qt\bin;C:\Qt\2009.05-rc1\bin;C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\mingw\mingw32\bin</value>
+    <value type="QString">PATH=C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\qt\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files (x86)\Common Files\Autodesk Shared\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Autodesk\Backburner\;C:\VXIPNP\WinNT\Bin;C:\Windows\system32\wbem;C:\Program Files (x86)\IVT Corporation\BlueSoleil\Mobile;C:\SysTools;C:\Program Files\Java\jdk1.6.0_14\bin;C:\Program Files\Java\jre6\bin;C:\Python26;C:\Program Files (x86)\SVN\bin;C:\Irrlicht\src\bin\Win32-VisualStudio;C:\Qt\2009.05-rc1\qt\bin;C:\Qt\2009.05-rc1\bin;C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\mingw\mingw32\bin</value>
     <value type="QString">PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC</value>
     <value type="QString">PROCESSOR_ARCHITECTURE=x86</value>
     <value type="QString">PROCESSOR_ARCHITEW6432=AMD64</value>
@@ -258,7 +249,7 @@
    </valuelist>
    <value key="abstractProcess.command" type="QString">C:/Qt/2009.05-rc1/mingw/bin/mingw32-make.exe</value>
    <value key="abstractProcess.enabled" type="bool">true</value>
-   <value key="abstractProcess.workingDirectory" type="QString">D:/Temp/DebugMonitor</value>
+   <value key="abstractProcess.workingDirectory" type="QString">D:/Home/er/Projects/nxtdebugmonitor</value>
    <value key="cleanConfig" type="bool">true</value>
    <valuelist key="makeargs" type="QVariantList">
     <value type="QString">clean</value>
@@ -272,9 +263,6 @@
    <valuelist key="abstractProcess.Environment" type="QVariantList">
     <value type="QString">ALLUSERSPROFILE=C:\ProgramData</value>
     <value type="QString">APPDATA=C:\Users\er\AppData\Roaming</value>
-    <value type="QString">COM.ADOBE.VERSIONCUE.CLIENT.APPLOCALE=de_DE</value>
-    <value type="QString">COM.ADOBE.VERSIONCUE.CLIENT.APPNAME=AdobeDrive</value>
-    <value type="QString">COM.ADOBE.VERSIONCUE.CLIENT.APPVERSION=1.0.0</value>
     <value type="QString">COMMONPROGRAMFILES=C:\Program Files (x86)\Common Files</value>
     <value type="QString">COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files</value>
     <value type="QString">COMMONPROGRAMW6432=C:\Program Files\Common Files</value>
@@ -292,7 +280,7 @@
     <value type="QString">LOGONSERVER=\\WINDWALKER</value>
     <value type="QString">NUMBER_OF_PROCESSORS=3</value>
     <value type="QString">OS=Windows_NT</value>
-    <value type="QString">PATH=C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\qt\bin;C:\Program Files (x86)\PC Connectivity Solution\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files (x86)\Common Files\Autodesk Shared\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Autodesk\Backburner\;C:\VXIPNP\WinNT\Bin;C:\Windows\system32\wbem;C:\Program Files (x86)\IVT Corporation\BlueSoleil\Mobile;C:\SysTools;C:\Program Files\Java\jdk1.6.0_14\bin;C:\Program Files\Java\jre6\bin;C:\Python26;C:\Program Files (x86)\SVN\bin;C:\Irrlicht\src\bin\Win32-VisualStudio;C:\Qt\2009.05-rc1\qt\bin;C:\Qt\2009.05-rc1\bin;C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\mingw\mingw32\bin</value>
+    <value type="QString">PATH=C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\qt\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files (x86)\Common Files\Autodesk Shared\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Autodesk\Backburner\;C:\VXIPNP\WinNT\Bin;C:\Windows\system32\wbem;C:\Program Files (x86)\IVT Corporation\BlueSoleil\Mobile;C:\SysTools;C:\Program Files\Java\jdk1.6.0_14\bin;C:\Program Files\Java\jre6\bin;C:\Python26;C:\Program Files (x86)\SVN\bin;C:\Irrlicht\src\bin\Win32-VisualStudio;C:\Qt\2009.05-rc1\qt\bin;C:\Qt\2009.05-rc1\bin;C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\mingw\mingw32\bin</value>
     <value type="QString">PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC</value>
     <value type="QString">PROCESSOR_ARCHITECTURE=x86</value>
     <value type="QString">PROCESSOR_ARCHITEW6432=AMD64</value>
@@ -319,7 +307,7 @@
     <value type="QString">WINDIR=C:\Windows</value>
    </valuelist>
    <valuelist key="abstractProcess.arguments" type="QVariantList">
-    <value type="QString">D:/Temp/DebugMonitor/DebugMonitor.pro</value>
+    <value type="QString">D:/Home/er/Projects/nxtdebugmonitor/DebugMonitor.pro</value>
     <value type="QString">-spec</value>
     <value type="QString">win32-g++</value>
     <value type="QString">-r</value>
@@ -327,7 +315,7 @@
    </valuelist>
    <value key="abstractProcess.command" type="QString">c:/qt/2009.05-rc1/qt/bin/qmake.exe</value>
    <value key="abstractProcess.enabled" type="bool">true</value>
-   <value key="abstractProcess.workingDirectory" type="QString">D:/Temp/DebugMonitor</value>
+   <value key="abstractProcess.workingDirectory" type="QString">D:/Home/er/Projects/nxtdebugmonitor</value>
   </valuemap>
  </data>
  <data>
@@ -337,9 +325,6 @@
    <valuelist key="abstractProcess.Environment" type="QVariantList">
     <value type="QString">ALLUSERSPROFILE=C:\ProgramData</value>
     <value type="QString">APPDATA=C:\Users\er\AppData\Roaming</value>
-    <value type="QString">COM.ADOBE.VERSIONCUE.CLIENT.APPLOCALE=de_DE</value>
-    <value type="QString">COM.ADOBE.VERSIONCUE.CLIENT.APPNAME=AdobeDrive</value>
-    <value type="QString">COM.ADOBE.VERSIONCUE.CLIENT.APPVERSION=1.0.0</value>
     <value type="QString">COMMONPROGRAMFILES=C:\Program Files (x86)\Common Files</value>
     <value type="QString">COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files</value>
     <value type="QString">COMMONPROGRAMW6432=C:\Program Files\Common Files</value>
@@ -357,7 +342,7 @@
     <value type="QString">LOGONSERVER=\\WINDWALKER</value>
     <value type="QString">NUMBER_OF_PROCESSORS=3</value>
     <value type="QString">OS=Windows_NT</value>
-    <value type="QString">PATH=C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\qt\bin;C:\Program Files (x86)\PC Connectivity Solution\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files (x86)\Common Files\Autodesk Shared\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Autodesk\Backburner\;C:\VXIPNP\WinNT\Bin;C:\Windows\system32\wbem;C:\Program Files (x86)\IVT Corporation\BlueSoleil\Mobile;C:\SysTools;C:\Program Files\Java\jdk1.6.0_14\bin;C:\Program Files\Java\jre6\bin;C:\Python26;C:\Program Files (x86)\SVN\bin;C:\Irrlicht\src\bin\Win32-VisualStudio;C:\Qt\2009.05-rc1\qt\bin;C:\Qt\2009.05-rc1\bin;C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\mingw\mingw32\bin</value>
+    <value type="QString">PATH=C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\qt\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files (x86)\Common Files\Autodesk Shared\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Autodesk\Backburner\;C:\VXIPNP\WinNT\Bin;C:\Windows\system32\wbem;C:\Program Files (x86)\IVT Corporation\BlueSoleil\Mobile;C:\SysTools;C:\Program Files\Java\jdk1.6.0_14\bin;C:\Program Files\Java\jre6\bin;C:\Python26;C:\Program Files (x86)\SVN\bin;C:\Irrlicht\src\bin\Win32-VisualStudio;C:\Qt\2009.05-rc1\qt\bin;C:\Qt\2009.05-rc1\bin;C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\mingw\mingw32\bin</value>
     <value type="QString">PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC</value>
     <value type="QString">PROCESSOR_ARCHITECTURE=x86</value>
     <value type="QString">PROCESSOR_ARCHITEW6432=AMD64</value>
@@ -389,7 +374,7 @@
    </valuelist>
    <value key="abstractProcess.command" type="QString">C:/Qt/2009.05-rc1/mingw/bin/mingw32-make.exe</value>
    <value key="abstractProcess.enabled" type="bool">true</value>
-   <value key="abstractProcess.workingDirectory" type="QString">D:/Temp/DebugMonitor</value>
+   <value key="abstractProcess.workingDirectory" type="QString">D:/Home/er/Projects/nxtdebugmonitor</value>
   </valuemap>
  </data>
  <data>
@@ -399,9 +384,6 @@
    <valuelist key="abstractProcess.Environment" type="QVariantList">
     <value type="QString">ALLUSERSPROFILE=C:\ProgramData</value>
     <value type="QString">APPDATA=C:\Users\er\AppData\Roaming</value>
-    <value type="QString">COM.ADOBE.VERSIONCUE.CLIENT.APPLOCALE=de_DE</value>
-    <value type="QString">COM.ADOBE.VERSIONCUE.CLIENT.APPNAME=AdobeDrive</value>
-    <value type="QString">COM.ADOBE.VERSIONCUE.CLIENT.APPVERSION=1.0.0</value>
     <value type="QString">COMMONPROGRAMFILES=C:\Program Files (x86)\Common Files</value>
     <value type="QString">COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files</value>
     <value type="QString">COMMONPROGRAMW6432=C:\Program Files\Common Files</value>
@@ -419,7 +401,7 @@
     <value type="QString">LOGONSERVER=\\WINDWALKER</value>
     <value type="QString">NUMBER_OF_PROCESSORS=3</value>
     <value type="QString">OS=Windows_NT</value>
-    <value type="QString">PATH=C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\qt\bin;C:\Program Files (x86)\PC Connectivity Solution\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files (x86)\Common Files\Autodesk Shared\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Autodesk\Backburner\;C:\VXIPNP\WinNT\Bin;C:\Windows\system32\wbem;C:\Program Files (x86)\IVT Corporation\BlueSoleil\Mobile;C:\SysTools;C:\Program Files\Java\jdk1.6.0_14\bin;C:\Program Files\Java\jre6\bin;C:\Python26;C:\Program Files (x86)\SVN\bin;C:\Irrlicht\src\bin\Win32-VisualStudio;C:\Qt\2009.05-rc1\qt\bin;C:\Qt\2009.05-rc1\bin;C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\mingw\mingw32\bin</value>
+    <value type="QString">PATH=C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\qt\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files (x86)\Common Files\Autodesk Shared\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Autodesk\Backburner\;C:\VXIPNP\WinNT\Bin;C:\Windows\system32\wbem;C:\Program Files (x86)\IVT Corporation\BlueSoleil\Mobile;C:\SysTools;C:\Program Files\Java\jdk1.6.0_14\bin;C:\Program Files\Java\jre6\bin;C:\Python26;C:\Program Files (x86)\SVN\bin;C:\Irrlicht\src\bin\Win32-VisualStudio;C:\Qt\2009.05-rc1\qt\bin;C:\Qt\2009.05-rc1\bin;C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\mingw\mingw32\bin</value>
     <value type="QString">PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC</value>
     <value type="QString">PROCESSOR_ARCHITECTURE=x86</value>
     <value type="QString">PROCESSOR_ARCHITEW6432=AMD64</value>
@@ -452,7 +434,7 @@
    </valuelist>
    <value key="abstractProcess.command" type="QString">C:/Qt/2009.05-rc1/mingw/bin/mingw32-make.exe</value>
    <value key="abstractProcess.enabled" type="bool">true</value>
-   <value key="abstractProcess.workingDirectory" type="QString">D:/Temp/DebugMonitor</value>
+   <value key="abstractProcess.workingDirectory" type="QString">D:/Home/er/Projects/nxtdebugmonitor</value>
    <value key="cleanConfig" type="bool">true</value>
    <valuelist key="makeargs" type="QVariantList">
     <value type="QString">clean</value>
