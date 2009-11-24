@@ -74,11 +74,9 @@ bool SerialPortListener::setPortParameters()
 
     // Set timeout
     COMMTIMEOUTS ctm;
-    ctm.ReadIntervalTimeout = 50;
-    ctm.ReadTotalTimeoutMultiplier = 500;
-    ctm.ReadTotalTimeoutConstant = 50;
-    ctm.WriteTotalTimeoutConstant = 50;
-    ctm.WriteTotalTimeoutMultiplier = 50;
+    ctm.ReadIntervalTimeout = 100;
+    ctm.ReadTotalTimeoutMultiplier = 0;
+    ctm.ReadTotalTimeoutConstant = 0;
 
     if( ! SetCommTimeouts( m_SerialPortHandle, &ctm ))
     {
@@ -120,43 +118,54 @@ void SerialPortListener::run()
 
 #if WIN32
     // Win32 version of reading from serial port
-    unsigned char* readBuffer = new unsigned char[INPUTBUFFER_LEN+1];
     DWORD read;
-    DWORD commEvent;
 
     SetCommMask( m_SerialPortHandle, EV_RXCHAR );
+
     while( m_Run )
     {
-        if( WaitCommEvent( m_SerialPortHandle, &commEvent, 0 ))
+        unsigned char data;
+        ReadFile( m_SerialPortHandle, &data, 1, &read, 0 );
+
+        if( data == 0x80 ) // Start of NXT Mailbox message
         {
-            qDebug() << "SerialPortListener - CommEvent!";
-
-            int bufferPos = 0;
-            do
+            qDebug() << "SerialPortListener - have magic 0x80";
+            ReadFile( m_SerialPortHandle, &data, 1, &read, 0 );
+            if( data == 0x09 ) // Magic Byte 2 ok?
             {
-                ReadFile( m_SerialPortHandle, &readBuffer[bufferPos++], 1, &read, 0 );
-
-                // If our internal buffer is full, process it immediatly
-                if( bufferPos == INPUTBUFFER_LEN )
+                qDebug() << "SerialPortListener - have magic 0x09";
+                ReadFile( m_SerialPortHandle, &data, 1, &read, 0 );
+                if( data >= 0x00 && data <= 0x09 ) // Mailbox number ok?
                 {
-                    qDebug() << "SerialPortListener - buffer full, sending now";
-                    emit( messageReceived( decoder->decodeMessage( readBuffer, bufferPos )));
-                    bufferPos = 0;
+                    qDebug() << "SerialPortListener - have mailbox" << data;
+                    ReadFile( m_SerialPortHandle, &data, 1, &read, 0 );
+                    int len = ( int ) data;
+
+                    qDebug() << "SerialPortListener - have len" << data;
+
+                    unsigned char *msg = new unsigned char[4+len];
+                    ReadFile( m_SerialPortHandle, msg + 4, len, &read, 0 );
+                    if( ( int ) read == len )
+                    {
+                        // Build entire message
+                        msg[0] = 0x80;
+                        msg[1] = 0x09;
+                        msg[2] = 0x00;
+                        msg[3] = ( unsigned char ) len;
+
+                        qDebug() << "SerialPortListener - have complete msg";
+
+                        QString m = decoder->decodeMessage( msg, len +4 );
+                        emit( messageReceived( m ));
+                    }
+                    else
+                    {
+                        qDebug() << "SerialPortHandle - not enought data to complete message";
+                    }
                 }
-            }
-            while( read );
-
-            qDebug() << "SerialPortListener - No more to read, emitting";
-
-            // After we have read from the port process
-            if( bufferPos > 0 )
-            {
-                emit( messageReceived( decoder->decodeMessage( readBuffer, bufferPos )));
             }
         }
     }
-
-    delete readBuffer;
 #endif
 
     delete decoder;

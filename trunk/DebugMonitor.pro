@@ -1,5 +1,5 @@
 CONFIG += qt \
-    console \
+    windows \
     thread
 SOURCES += main.cpp \
     MainWindow.cpp \
@@ -21,8 +21,3 @@ QMAKE_CXXFLAGS_DEBUG += -DDEBUG
 RESOURCES += resources.qrc
 RC_FILE = debugmonitor.rc
 OTHER_FILES += debugmonitor.rc
-
-CONFIG(release) {
-    CONFIG -= console
-    CONFIG += windows staticlib
-}

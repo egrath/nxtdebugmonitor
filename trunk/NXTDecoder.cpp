@@ -6,21 +6,30 @@ QString NXTDecoder::decodeMessage( unsigned char *bytes, unsigned int len )
         return QString();
 
     qDebug() << "NXTDecoder - decoding message:";
-    for( int index = 0; index < len; index ++ )
+    for( int index = 0; index < ( int ) len; index ++ )
         cout << hex << "[" << ( int ) bytes[index] << "]";
     cout << endl;
 
-    // Simple method of decoding the NXT Message: Strip first 6 bytes ...
-    int rawStringLen = len -8;
-    qDebug() << "Message string len: " << rawStringLen;
+    if(( bytes[0] == 0x80 || bytes[0] == 0x00 ) && bytes[1] == 0x09 ) // valid NXT Mailbox message?
+    {
+        int stringLen = ( int ) bytes[3]; // String length
+        if( stringLen == 0 || ( int ) len < stringLen )
+            return QString();
 
-    unsigned char *msg = new unsigned char[rawStringLen +2];
-    memcpy( msg, ( bytes + 6 ), rawStringLen );
+        // Read actual message
+        unsigned char *buffer = new unsigned char[stringLen];
+        for( int index = 0; index < stringLen; index ++ )
+        {
+            *( buffer + index ) = *( bytes + 4 + index );
+        }
 
-    msg[rawStringLen] = '\0';
+        QString message(( char * ) buffer );
+        delete buffer;
 
-    QString message(( char * ) msg );
-    delete msg;
+        qDebug() << "NXTDecoder - decoded message is:" << message;
 
-    return QString( message );
+        return message;
+    }    
+
+    return QString();
 }
