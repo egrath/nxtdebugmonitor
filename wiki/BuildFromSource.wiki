@@ -1,0 +1,23 @@
+=Building from source=
+If you want to build the latest version instead of using the binary release, make sure your system has the following prerequisites:
+
+ * Installed Qt SDK (>= 4.x)
+ * Installed MinGW Compiler (should compile with MSVC too, but i haven't tested this)
+
+Now fetch the source:
+{{{
+svn checkout http://nxtdebugmonitor.googlecode.com/svn/trunk/ nxtdebugmonitor-read-only
+}}}
+
+create the Makefiles for your system (do this in the source directory):
+{{{
+qmake
+}}}
+
+now build the project (use the makefile for either a debugging or release build)
+{{{
+mingw32-make -f Makefile.Debug
+}}}
+
+when the build process if finished your should have a executable in debug/
+If you want additional debugging messages, change the project type to "console" instead of "windows" in the DebugMonitor.pro file, run qmake and rebuild.
