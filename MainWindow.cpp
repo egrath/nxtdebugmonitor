@@ -5,6 +5,9 @@ void MainWindow::setupUi()
 {
     m_UserInterface.setupUi( this );
 
+    /*
+     * Connecting all Signals/Slots
+     */
     // File->Exit
     QObject::connect( m_UserInterface.actionFileExit, SIGNAL( triggered() ), this, SLOT( shutdown() ));
 
@@ -14,11 +17,16 @@ void MainWindow::setupUi()
     // Edit->Preferences
     QObject::connect( m_UserInterface.actionEditPreferences, SIGNAL( triggered() ), this, SLOT( showPreferences() ));
 
+    // Edit->Select all
+    QObject::connect( m_UserInterface.actionEditSelectAll, SIGNAL( triggered() ), this, SLOT( selectAll() ));
+
+    // Edit->Copy
+    QObject::connect( m_UserInterface.actionEditCopy, SIGNAL( triggered() ), this, SLOT( copyToClipboard()));
+
+    QObject::connect( m_UserInterface.debugText, SIGNAL(copyAvailable(bool)), this, SLOT(selectionChanged(bool)));
+
     // Window Icon
     this->setWindowIcon( QIcon( ":/icons/icons/network-wireless.png" ));
-    m_UserInterface.actionFileExit->setIcon( QIcon( ":/icons/icons/process-stop.png" ));
-    m_UserInterface.actionEditPreferences->setIcon( QIcon( ":/icons/icons/accessories-text-editor.png"));
-    m_UserInterface.actionFileSave->setIcon( QIcon( ":/icons/icons/document-save-as.png"));
 }
 
 // Protected
@@ -144,4 +152,23 @@ void MainWindow::showPreferences()
         m_SerialPortListener->start();
         setWindowTitle();
     }
+}
+
+void MainWindow::selectAll()
+{
+    m_UserInterface.debugText->selectAll();
+}
+
+void MainWindow::copyToClipboard()
+{
+    m_UserInterface.debugText->copy();
+    m_UserInterface.debugText->moveCursor( QTextCursor::End, QTextCursor::MoveAnchor );
+}
+
+void MainWindow::selectionChanged( bool yes )
+{
+    if( yes ) // something selected?
+        m_UserInterface.actionEditCopy->setEnabled( true );
+    else
+        m_UserInterface.actionEditCopy->setEnabled( false );
 }
