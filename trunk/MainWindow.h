@@ -40,6 +40,9 @@ public slots:
     void shutdown();
     void saveDebugText();
     void showPreferences();
+    void selectAll();
+    void copyToClipboard();
+    void selectionChanged( bool yes );
 };
 
 #endif // MAINWINDOW_H

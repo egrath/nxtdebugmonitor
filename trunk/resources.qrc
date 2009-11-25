@@ -1,5 +1,7 @@
 <RCC>
   <qresource prefix="icons">
+    <file>icons/edit-copy.png</file>
+    <file>icons/edit-select-all.png</file>
     <file>icons/network-wireless.png</file>
     <file>icons/accessories-text-editor.png</file>
     <file>icons/document-save-as.png</file>

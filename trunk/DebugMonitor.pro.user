@@ -50,7 +50,7 @@
  </data>
  <data>
   <variable>activebuildconfiguration</variable>
-  <value type="QString">Release</value>
+  <value type="QString">Debug</value>
  </data>
  <data>
   <variable>buildConfiguration-Debug</variable>
@@ -79,58 +79,53 @@
    <valuelist key="abstractProcess.Environment" type="QVariantList">
     <value type="QString">ALLUSERSPROFILE=C:\ProgramData</value>
     <value type="QString">APPDATA=C:\Users\er\AppData\Roaming</value>
-    <value type="QString">COMMONPROGRAMFILES=C:\Program Files (x86)\Common Files</value>
-    <value type="QString">COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files</value>
-    <value type="QString">COMMONPROGRAMW6432=C:\Program Files\Common Files</value>
-    <value type="QString">COMPUTERNAME=WINDWALKER</value>
+    <value type="QString">COMMONPROGRAMFILES=C:\Program Files\Common Files</value>
+    <value type="QString">COMPUTERNAME=NELSON</value>
     <value type="QString">COMSPEC=C:\Windows\system32\cmd.exe</value>
     <value type="QString">DIRCMD=/O /P</value>
-    <value type="QString">DXSDK_DIR=C:\Program Files (x86)\Microsoft DirectX SDK (March 2009)\</value>
     <value type="QString">FP_NO_HOST_CHECK=NO</value>
+    <value type="QString">FTP_PROXY=http://10.138.11.217:5865/</value>
     <value type="QString">HOMEDRIVE=C:</value>
     <value type="QString">HOMEPATH=\Users\er</value>
-    <value type="QString">JAVA_HOME=C:\Program Files\Java\jre6</value>
-    <value type="QString">JDK_HOME=C:\Program Files\Java\jdk1.6.0_14</value>
-    <value type="QString">LANG=en_US.UTF8</value>
+    <value type="QString">HTTPS_PROXY=http://10.138.11.217:5865/</value>
+    <value type="QString">HTTP_PROXY=http://10.138.11.217:5865/</value>
+    <value type="QString">LANG=en_US</value>
     <value type="QString">LOCALAPPDATA=C:\Users\er\AppData\Local</value>
-    <value type="QString">LOGONSERVER=\\WINDWALKER</value>
-    <value type="QString">NUMBER_OF_PROCESSORS=3</value>
+    <value type="QString">LOGONSERVER=\\NELSON</value>
+    <value type="QString">NUMBER_OF_PROCESSORS=2</value>
     <value type="QString">OS=Windows_NT</value>
-    <value type="QString">PATH=C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\qt\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files (x86)\Common Files\Autodesk Shared\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Autodesk\Backburner\;C:\VXIPNP\WinNT\Bin;C:\Windows\system32\wbem;C:\Program Files (x86)\IVT Corporation\BlueSoleil\Mobile;C:\SysTools;C:\Program Files\Java\jdk1.6.0_14\bin;C:\Program Files\Java\jre6\bin;C:\Python26;C:\Program Files (x86)\SVN\bin;C:\Irrlicht\src\bin\Win32-VisualStudio;C:\Qt\2009.05-rc1\qt\bin;C:\Qt\2009.05-rc1\bin;C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\mingw\mingw32\bin</value>
+    <value type="QString">PATH=C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\qt\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Autodesk\Backburner\;C:\Program Files\Common Files\Autodesk Shared\;C:\SysTools;C:\Qt\2009.05-rc1\qt\bin;C:\Qt\2009.05-rc1\bin;C:\Qt\2009.05-rc1\mingw\bin</value>
     <value type="QString">PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC</value>
     <value type="QString">PROCESSOR_ARCHITECTURE=x86</value>
-    <value type="QString">PROCESSOR_ARCHITEW6432=AMD64</value>
-    <value type="QString">PROCESSOR_IDENTIFIER=AMD64 Family 16 Model 4 Stepping 2, AuthenticAMD</value>
-    <value type="QString">PROCESSOR_LEVEL=16</value>
-    <value type="QString">PROCESSOR_REVISION=0402</value>
+    <value type="QString">PROCESSOR_IDENTIFIER=x86 Family 6 Model 15 Stepping 6, GenuineIntel</value>
+    <value type="QString">PROCESSOR_LEVEL=6</value>
+    <value type="QString">PROCESSOR_REVISION=0f06</value>
     <value type="QString">PROGRAMDATA=C:\ProgramData</value>
-    <value type="QString">PROGRAMFILES=C:\Program Files (x86)</value>
-    <value type="QString">PROGRAMFILES(X86)=C:\Program Files (x86)</value>
-    <value type="QString">PROGRAMW6432=C:\Program Files</value>
+    <value type="QString">PROGRAMFILES=C:\Program Files</value>
+    <value type="QString">PSMODULEPATH=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\</value>
     <value type="QString">PUBLIC=C:\Users\Public</value>
     <value type="QString">QTDIR=C:/Qt/2009.05-rc1/qt</value>
     <value type="QString">SESSIONNAME=Console</value>
     <value type="QString">SYSTEMDRIVE=C:</value>
     <value type="QString">SYSTEMROOT=C:\Windows</value>
-    <value type="QString">TEMP=C:\Temp</value>
-    <value type="QString">TMP=C:\Temp</value>
-    <value type="QString">USERDOMAIN=windwalker</value>
+    <value type="QString">TEMP=C:\Users\er\AppData\Local\Temp</value>
+    <value type="QString">TMP=C:\Users\er\AppData\Local\Temp</value>
+    <value type="QString">USERDOMAIN=nelson</value>
     <value type="QString">USERNAME=er</value>
     <value type="QString">USERPROFILE=C:\Users\er</value>
     <value type="QString">VBOX_INSTALL_PATH=C:\Program Files\Sun\VirtualBox\</value>
-    <value type="QString">VS90COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\Tools\</value>
-    <value type="QString">VXIPNPPATH=C:\VXIPNP\</value>
+    <value type="QString">VS100COMNTOOLS=C:\Program Files\Microsoft Visual Studio 10.0\Common7\Tools\</value>
     <value type="QString">WINDIR=C:\Windows</value>
    </valuelist>
    <valuelist key="abstractProcess.arguments" type="QVariantList">
-    <value type="QString">D:/Home/er/Projects/nxtdebugmonitor/DebugMonitor.pro</value>
+    <value type="QString">D:/Home/er/prj/nxtdebugmonitor/DebugMonitor.pro</value>
     <value type="QString">-spec</value>
     <value type="QString">win32-g++</value>
     <value type="QString">-r</value>
    </valuelist>
    <value key="abstractProcess.command" type="QString">c:/qt/2009.05-rc1/qt/bin/qmake.exe</value>
    <value key="abstractProcess.enabled" type="bool">true</value>
-   <value key="abstractProcess.workingDirectory" type="QString">D:/Home/er/Projects/nxtdebugmonitor</value>
+   <value key="abstractProcess.workingDirectory" type="QString">D:/Home/er/prj/nxtdebugmonitor</value>
   </valuemap>
  </data>
  <data>
@@ -140,47 +135,42 @@
    <valuelist key="abstractProcess.Environment" type="QVariantList">
     <value type="QString">ALLUSERSPROFILE=C:\ProgramData</value>
     <value type="QString">APPDATA=C:\Users\er\AppData\Roaming</value>
-    <value type="QString">COMMONPROGRAMFILES=C:\Program Files (x86)\Common Files</value>
-    <value type="QString">COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files</value>
-    <value type="QString">COMMONPROGRAMW6432=C:\Program Files\Common Files</value>
-    <value type="QString">COMPUTERNAME=WINDWALKER</value>
+    <value type="QString">COMMONPROGRAMFILES=C:\Program Files\Common Files</value>
+    <value type="QString">COMPUTERNAME=NELSON</value>
     <value type="QString">COMSPEC=C:\Windows\system32\cmd.exe</value>
     <value type="QString">DIRCMD=/O /P</value>
-    <value type="QString">DXSDK_DIR=C:\Program Files (x86)\Microsoft DirectX SDK (March 2009)\</value>
     <value type="QString">FP_NO_HOST_CHECK=NO</value>
+    <value type="QString">FTP_PROXY=http://10.138.11.217:5865/</value>
     <value type="QString">HOMEDRIVE=C:</value>
     <value type="QString">HOMEPATH=\Users\er</value>
-    <value type="QString">JAVA_HOME=C:\Program Files\Java\jre6</value>
-    <value type="QString">JDK_HOME=C:\Program Files\Java\jdk1.6.0_14</value>
-    <value type="QString">LANG=en_US.UTF8</value>
+    <value type="QString">HTTPS_PROXY=http://10.138.11.217:5865/</value>
+    <value type="QString">HTTP_PROXY=http://10.138.11.217:5865/</value>
+    <value type="QString">LANG=en_US</value>
     <value type="QString">LOCALAPPDATA=C:\Users\er\AppData\Local</value>
-    <value type="QString">LOGONSERVER=\\WINDWALKER</value>
-    <value type="QString">NUMBER_OF_PROCESSORS=3</value>
+    <value type="QString">LOGONSERVER=\\NELSON</value>
+    <value type="QString">NUMBER_OF_PROCESSORS=2</value>
     <value type="QString">OS=Windows_NT</value>
-    <value type="QString">PATH=C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\qt\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files (x86)\Common Files\Autodesk Shared\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Autodesk\Backburner\;C:\VXIPNP\WinNT\Bin;C:\Windows\system32\wbem;C:\Program Files (x86)\IVT Corporation\BlueSoleil\Mobile;C:\SysTools;C:\Program Files\Java\jdk1.6.0_14\bin;C:\Program Files\Java\jre6\bin;C:\Python26;C:\Program Files (x86)\SVN\bin;C:\Irrlicht\src\bin\Win32-VisualStudio;C:\Qt\2009.05-rc1\qt\bin;C:\Qt\2009.05-rc1\bin;C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\mingw\mingw32\bin</value>
+    <value type="QString">PATH=C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\qt\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Autodesk\Backburner\;C:\Program Files\Common Files\Autodesk Shared\;C:\SysTools;C:\Qt\2009.05-rc1\qt\bin;C:\Qt\2009.05-rc1\bin;C:\Qt\2009.05-rc1\mingw\bin</value>
     <value type="QString">PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC</value>
     <value type="QString">PROCESSOR_ARCHITECTURE=x86</value>
-    <value type="QString">PROCESSOR_ARCHITEW6432=AMD64</value>
-    <value type="QString">PROCESSOR_IDENTIFIER=AMD64 Family 16 Model 4 Stepping 2, AuthenticAMD</value>
-    <value type="QString">PROCESSOR_LEVEL=16</value>
-    <value type="QString">PROCESSOR_REVISION=0402</value>
+    <value type="QString">PROCESSOR_IDENTIFIER=x86 Family 6 Model 15 Stepping 6, GenuineIntel</value>
+    <value type="QString">PROCESSOR_LEVEL=6</value>
+    <value type="QString">PROCESSOR_REVISION=0f06</value>
     <value type="QString">PROGRAMDATA=C:\ProgramData</value>
-    <value type="QString">PROGRAMFILES=C:\Program Files (x86)</value>
-    <value type="QString">PROGRAMFILES(X86)=C:\Program Files (x86)</value>
-    <value type="QString">PROGRAMW6432=C:\Program Files</value>
+    <value type="QString">PROGRAMFILES=C:\Program Files</value>
+    <value type="QString">PSMODULEPATH=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\</value>
     <value type="QString">PUBLIC=C:\Users\Public</value>
     <value type="QString">QTDIR=C:/Qt/2009.05-rc1/qt</value>
     <value type="QString">SESSIONNAME=Console</value>
     <value type="QString">SYSTEMDRIVE=C:</value>
     <value type="QString">SYSTEMROOT=C:\Windows</value>
-    <value type="QString">TEMP=C:\Temp</value>
-    <value type="QString">TMP=C:\Temp</value>
-    <value type="QString">USERDOMAIN=windwalker</value>
+    <value type="QString">TEMP=C:\Users\er\AppData\Local\Temp</value>
+    <value type="QString">TMP=C:\Users\er\AppData\Local\Temp</value>
+    <value type="QString">USERDOMAIN=nelson</value>
     <value type="QString">USERNAME=er</value>
     <value type="QString">USERPROFILE=C:\Users\er</value>
     <value type="QString">VBOX_INSTALL_PATH=C:\Program Files\Sun\VirtualBox\</value>
-    <value type="QString">VS90COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\Tools\</value>
-    <value type="QString">VXIPNPPATH=C:\VXIPNP\</value>
+    <value type="QString">VS100COMNTOOLS=C:\Program Files\Microsoft Visual Studio 10.0\Common7\Tools\</value>
     <value type="QString">WINDIR=C:\Windows</value>
    </valuelist>
    <value key="abstractProcess.IgnoreReturnValue" type="bool">false</value>
@@ -189,7 +179,7 @@
    </valuelist>
    <value key="abstractProcess.command" type="QString">C:/Qt/2009.05-rc1/mingw/bin/mingw32-make.exe</value>
    <value key="abstractProcess.enabled" type="bool">true</value>
-   <value key="abstractProcess.workingDirectory" type="QString">D:/Home/er/Projects/nxtdebugmonitor</value>
+   <value key="abstractProcess.workingDirectory" type="QString">D:/Home/er/prj/nxtdebugmonitor</value>
   </valuemap>
  </data>
  <data>
@@ -199,47 +189,42 @@
    <valuelist key="abstractProcess.Environment" type="QVariantList">
     <value type="QString">ALLUSERSPROFILE=C:\ProgramData</value>
     <value type="QString">APPDATA=C:\Users\er\AppData\Roaming</value>
-    <value type="QString">COMMONPROGRAMFILES=C:\Program Files (x86)\Common Files</value>
-    <value type="QString">COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files</value>
-    <value type="QString">COMMONPROGRAMW6432=C:\Program Files\Common Files</value>
-    <value type="QString">COMPUTERNAME=WINDWALKER</value>
+    <value type="QString">COMMONPROGRAMFILES=C:\Program Files\Common Files</value>
+    <value type="QString">COMPUTERNAME=NELSON</value>
     <value type="QString">COMSPEC=C:\Windows\system32\cmd.exe</value>
     <value type="QString">DIRCMD=/O /P</value>
-    <value type="QString">DXSDK_DIR=C:\Program Files (x86)\Microsoft DirectX SDK (March 2009)\</value>
     <value type="QString">FP_NO_HOST_CHECK=NO</value>
+    <value type="QString">FTP_PROXY=http://10.138.11.217:5865/</value>
     <value type="QString">HOMEDRIVE=C:</value>
     <value type="QString">HOMEPATH=\Users\er</value>
-    <value type="QString">JAVA_HOME=C:\Program Files\Java\jre6</value>
-    <value type="QString">JDK_HOME=C:\Program Files\Java\jdk1.6.0_14</value>
-    <value type="QString">LANG=en_US.UTF8</value>
+    <value type="QString">HTTPS_PROXY=http://10.138.11.217:5865/</value>
+    <value type="QString">HTTP_PROXY=http://10.138.11.217:5865/</value>
+    <value type="QString">LANG=en_US</value>
     <value type="QString">LOCALAPPDATA=C:\Users\er\AppData\Local</value>
-    <value type="QString">LOGONSERVER=\\WINDWALKER</value>
-    <value type="QString">NUMBER_OF_PROCESSORS=3</value>
+    <value type="QString">LOGONSERVER=\\NELSON</value>
+    <value type="QString">NUMBER_OF_PROCESSORS=2</value>
     <value type="QString">OS=Windows_NT</value>
-    <value type="QString">PATH=C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\qt\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files (x86)\Common Files\Autodesk Shared\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Autodesk\Backburner\;C:\VXIPNP\WinNT\Bin;C:\Windows\system32\wbem;C:\Program Files (x86)\IVT Corporation\BlueSoleil\Mobile;C:\SysTools;C:\Program Files\Java\jdk1.6.0_14\bin;C:\Program Files\Java\jre6\bin;C:\Python26;C:\Program Files (x86)\SVN\bin;C:\Irrlicht\src\bin\Win32-VisualStudio;C:\Qt\2009.05-rc1\qt\bin;C:\Qt\2009.05-rc1\bin;C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\mingw\mingw32\bin</value>
+    <value type="QString">PATH=C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\qt\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Autodesk\Backburner\;C:\Program Files\Common Files\Autodesk Shared\;C:\SysTools;C:\Qt\2009.05-rc1\qt\bin;C:\Qt\2009.05-rc1\bin;C:\Qt\2009.05-rc1\mingw\bin</value>
     <value type="QString">PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC</value>
     <value type="QString">PROCESSOR_ARCHITECTURE=x86</value>
-    <value type="QString">PROCESSOR_ARCHITEW6432=AMD64</value>
-    <value type="QString">PROCESSOR_IDENTIFIER=AMD64 Family 16 Model 4 Stepping 2, AuthenticAMD</value>
-    <value type="QString">PROCESSOR_LEVEL=16</value>
-    <value type="QString">PROCESSOR_REVISION=0402</value>
+    <value type="QString">PROCESSOR_IDENTIFIER=x86 Family 6 Model 15 Stepping 6, GenuineIntel</value>
+    <value type="QString">PROCESSOR_LEVEL=6</value>
+    <value type="QString">PROCESSOR_REVISION=0f06</value>
     <value type="QString">PROGRAMDATA=C:\ProgramData</value>
-    <value type="QString">PROGRAMFILES=C:\Program Files (x86)</value>
-    <value type="QString">PROGRAMFILES(X86)=C:\Program Files (x86)</value>
-    <value type="QString">PROGRAMW6432=C:\Program Files</value>
+    <value type="QString">PROGRAMFILES=C:\Program Files</value>
+    <value type="QString">PSMODULEPATH=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\</value>
     <value type="QString">PUBLIC=C:\Users\Public</value>
     <value type="QString">QTDIR=C:/Qt/2009.05-rc1/qt</value>
     <value type="QString">SESSIONNAME=Console</value>
     <value type="QString">SYSTEMDRIVE=C:</value>
     <value type="QString">SYSTEMROOT=C:\Windows</value>
-    <value type="QString">TEMP=C:\Temp</value>
-    <value type="QString">TMP=C:\Temp</value>
-    <value type="QString">USERDOMAIN=windwalker</value>
+    <value type="QString">TEMP=C:\Users\er\AppData\Local\Temp</value>
+    <value type="QString">TMP=C:\Users\er\AppData\Local\Temp</value>
+    <value type="QString">USERDOMAIN=nelson</value>
     <value type="QString">USERNAME=er</value>
     <value type="QString">USERPROFILE=C:\Users\er</value>
     <value type="QString">VBOX_INSTALL_PATH=C:\Program Files\Sun\VirtualBox\</value>
-    <value type="QString">VS90COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\Tools\</value>
-    <value type="QString">VXIPNPPATH=C:\VXIPNP\</value>
+    <value type="QString">VS100COMNTOOLS=C:\Program Files\Microsoft Visual Studio 10.0\Common7\Tools\</value>
     <value type="QString">WINDIR=C:\Windows</value>
    </valuelist>
    <value key="abstractProcess.IgnoreReturnValue" type="bool">true</value>
@@ -249,7 +234,7 @@
    </valuelist>
    <value key="abstractProcess.command" type="QString">C:/Qt/2009.05-rc1/mingw/bin/mingw32-make.exe</value>
    <value key="abstractProcess.enabled" type="bool">true</value>
-   <value key="abstractProcess.workingDirectory" type="QString">D:/Home/er/Projects/nxtdebugmonitor</value>
+   <value key="abstractProcess.workingDirectory" type="QString">D:/Home/er/prj/nxtdebugmonitor</value>
    <value key="cleanConfig" type="bool">true</value>
    <valuelist key="makeargs" type="QVariantList">
     <value type="QString">clean</value>
@@ -263,51 +248,46 @@
    <valuelist key="abstractProcess.Environment" type="QVariantList">
     <value type="QString">ALLUSERSPROFILE=C:\ProgramData</value>
     <value type="QString">APPDATA=C:\Users\er\AppData\Roaming</value>
-    <value type="QString">COMMONPROGRAMFILES=C:\Program Files (x86)\Common Files</value>
-    <value type="QString">COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files</value>
-    <value type="QString">COMMONPROGRAMW6432=C:\Program Files\Common Files</value>
-    <value type="QString">COMPUTERNAME=WINDWALKER</value>
+    <value type="QString">COMMONPROGRAMFILES=C:\Program Files\Common Files</value>
+    <value type="QString">COMPUTERNAME=NELSON</value>
     <value type="QString">COMSPEC=C:\Windows\system32\cmd.exe</value>
     <value type="QString">DIRCMD=/O /P</value>
-    <value type="QString">DXSDK_DIR=C:\Program Files (x86)\Microsoft DirectX SDK (March 2009)\</value>
     <value type="QString">FP_NO_HOST_CHECK=NO</value>
+    <value type="QString">FTP_PROXY=http://10.138.11.217:5865/</value>
     <value type="QString">HOMEDRIVE=C:</value>
     <value type="QString">HOMEPATH=\Users\er</value>
-    <value type="QString">JAVA_HOME=C:\Program Files\Java\jre6</value>
-    <value type="QString">JDK_HOME=C:\Program Files\Java\jdk1.6.0_14</value>
-    <value type="QString">LANG=en_US.UTF8</value>
+    <value type="QString">HTTPS_PROXY=http://10.138.11.217:5865/</value>
+    <value type="QString">HTTP_PROXY=http://10.138.11.217:5865/</value>
+    <value type="QString">LANG=en_US</value>
     <value type="QString">LOCALAPPDATA=C:\Users\er\AppData\Local</value>
-    <value type="QString">LOGONSERVER=\\WINDWALKER</value>
-    <value type="QString">NUMBER_OF_PROCESSORS=3</value>
+    <value type="QString">LOGONSERVER=\\NELSON</value>
+    <value type="QString">NUMBER_OF_PROCESSORS=2</value>
     <value type="QString">OS=Windows_NT</value>
-    <value type="QString">PATH=C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\qt\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files (x86)\Common Files\Autodesk Shared\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Autodesk\Backburner\;C:\VXIPNP\WinNT\Bin;C:\Windows\system32\wbem;C:\Program Files (x86)\IVT Corporation\BlueSoleil\Mobile;C:\SysTools;C:\Program Files\Java\jdk1.6.0_14\bin;C:\Program Files\Java\jre6\bin;C:\Python26;C:\Program Files (x86)\SVN\bin;C:\Irrlicht\src\bin\Win32-VisualStudio;C:\Qt\2009.05-rc1\qt\bin;C:\Qt\2009.05-rc1\bin;C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\mingw\mingw32\bin</value>
+    <value type="QString">PATH=C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\qt\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Autodesk\Backburner\;C:\Program Files\Common Files\Autodesk Shared\;C:\SysTools;C:\Qt\2009.05-rc1\qt\bin;C:\Qt\2009.05-rc1\bin;C:\Qt\2009.05-rc1\mingw\bin</value>
     <value type="QString">PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC</value>
     <value type="QString">PROCESSOR_ARCHITECTURE=x86</value>
-    <value type="QString">PROCESSOR_ARCHITEW6432=AMD64</value>
-    <value type="QString">PROCESSOR_IDENTIFIER=AMD64 Family 16 Model 4 Stepping 2, AuthenticAMD</value>
-    <value type="QString">PROCESSOR_LEVEL=16</value>
-    <value type="QString">PROCESSOR_REVISION=0402</value>
+    <value type="QString">PROCESSOR_IDENTIFIER=x86 Family 6 Model 15 Stepping 6, GenuineIntel</value>
+    <value type="QString">PROCESSOR_LEVEL=6</value>
+    <value type="QString">PROCESSOR_REVISION=0f06</value>
     <value type="QString">PROGRAMDATA=C:\ProgramData</value>
-    <value type="QString">PROGRAMFILES=C:\Program Files (x86)</value>
-    <value type="QString">PROGRAMFILES(X86)=C:\Program Files (x86)</value>
-    <value type="QString">PROGRAMW6432=C:\Program Files</value>
+    <value type="QString">PROGRAMFILES=C:\Program Files</value>
+    <value type="QString">PSMODULEPATH=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\</value>
     <value type="QString">PUBLIC=C:\Users\Public</value>
     <value type="QString">QTDIR=C:/Qt/2009.05-rc1/qt</value>
     <value type="QString">SESSIONNAME=Console</value>
     <value type="QString">SYSTEMDRIVE=C:</value>
     <value type="QString">SYSTEMROOT=C:\Windows</value>
-    <value type="QString">TEMP=C:\Temp</value>
-    <value type="QString">TMP=C:\Temp</value>
-    <value type="QString">USERDOMAIN=windwalker</value>
+    <value type="QString">TEMP=C:\Users\er\AppData\Local\Temp</value>
+    <value type="QString">TMP=C:\Users\er\AppData\Local\Temp</value>
+    <value type="QString">USERDOMAIN=nelson</value>
     <value type="QString">USERNAME=er</value>
     <value type="QString">USERPROFILE=C:\Users\er</value>
     <value type="QString">VBOX_INSTALL_PATH=C:\Program Files\Sun\VirtualBox\</value>
-    <value type="QString">VS90COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\Tools\</value>
-    <value type="QString">VXIPNPPATH=C:\VXIPNP\</value>
+    <value type="QString">VS100COMNTOOLS=C:\Program Files\Microsoft Visual Studio 10.0\Common7\Tools\</value>
     <value type="QString">WINDIR=C:\Windows</value>
    </valuelist>
    <valuelist key="abstractProcess.arguments" type="QVariantList">
-    <value type="QString">D:/Home/er/Projects/nxtdebugmonitor/DebugMonitor.pro</value>
+    <value type="QString">D:/Home/er/prj/nxtdebugmonitor/DebugMonitor.pro</value>
     <value type="QString">-spec</value>
     <value type="QString">win32-g++</value>
     <value type="QString">-r</value>
@@ -315,7 +295,7 @@
    </valuelist>
    <value key="abstractProcess.command" type="QString">c:/qt/2009.05-rc1/qt/bin/qmake.exe</value>
    <value key="abstractProcess.enabled" type="bool">true</value>
-   <value key="abstractProcess.workingDirectory" type="QString">D:/Home/er/Projects/nxtdebugmonitor</value>
+   <value key="abstractProcess.workingDirectory" type="QString">D:/Home/er/prj/nxtdebugmonitor</value>
   </valuemap>
  </data>
  <data>
@@ -325,47 +305,42 @@
    <valuelist key="abstractProcess.Environment" type="QVariantList">
     <value type="QString">ALLUSERSPROFILE=C:\ProgramData</value>
     <value type="QString">APPDATA=C:\Users\er\AppData\Roaming</value>
-    <value type="QString">COMMONPROGRAMFILES=C:\Program Files (x86)\Common Files</value>
-    <value type="QString">COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files</value>
-    <value type="QString">COMMONPROGRAMW6432=C:\Program Files\Common Files</value>
-    <value type="QString">COMPUTERNAME=WINDWALKER</value>
+    <value type="QString">COMMONPROGRAMFILES=C:\Program Files\Common Files</value>
+    <value type="QString">COMPUTERNAME=NELSON</value>
     <value type="QString">COMSPEC=C:\Windows\system32\cmd.exe</value>
     <value type="QString">DIRCMD=/O /P</value>
-    <value type="QString">DXSDK_DIR=C:\Program Files (x86)\Microsoft DirectX SDK (March 2009)\</value>
     <value type="QString">FP_NO_HOST_CHECK=NO</value>
+    <value type="QString">FTP_PROXY=http://10.138.11.217:5865/</value>
     <value type="QString">HOMEDRIVE=C:</value>
     <value type="QString">HOMEPATH=\Users\er</value>
-    <value type="QString">JAVA_HOME=C:\Program Files\Java\jre6</value>
-    <value type="QString">JDK_HOME=C:\Program Files\Java\jdk1.6.0_14</value>
-    <value type="QString">LANG=en_US.UTF8</value>
+    <value type="QString">HTTPS_PROXY=http://10.138.11.217:5865/</value>
+    <value type="QString">HTTP_PROXY=http://10.138.11.217:5865/</value>
+    <value type="QString">LANG=en_US</value>
     <value type="QString">LOCALAPPDATA=C:\Users\er\AppData\Local</value>
-    <value type="QString">LOGONSERVER=\\WINDWALKER</value>
-    <value type="QString">NUMBER_OF_PROCESSORS=3</value>
+    <value type="QString">LOGONSERVER=\\NELSON</value>
+    <value type="QString">NUMBER_OF_PROCESSORS=2</value>
     <value type="QString">OS=Windows_NT</value>
-    <value type="QString">PATH=C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\qt\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files (x86)\Common Files\Autodesk Shared\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Autodesk\Backburner\;C:\VXIPNP\WinNT\Bin;C:\Windows\system32\wbem;C:\Program Files (x86)\IVT Corporation\BlueSoleil\Mobile;C:\SysTools;C:\Program Files\Java\jdk1.6.0_14\bin;C:\Program Files\Java\jre6\bin;C:\Python26;C:\Program Files (x86)\SVN\bin;C:\Irrlicht\src\bin\Win32-VisualStudio;C:\Qt\2009.05-rc1\qt\bin;C:\Qt\2009.05-rc1\bin;C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\mingw\mingw32\bin</value>
+    <value type="QString">PATH=C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\qt\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Autodesk\Backburner\;C:\Program Files\Common Files\Autodesk Shared\;C:\SysTools;C:\Qt\2009.05-rc1\qt\bin;C:\Qt\2009.05-rc1\bin;C:\Qt\2009.05-rc1\mingw\bin</value>
     <value type="QString">PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC</value>
     <value type="QString">PROCESSOR_ARCHITECTURE=x86</value>
-    <value type="QString">PROCESSOR_ARCHITEW6432=AMD64</value>
-    <value type="QString">PROCESSOR_IDENTIFIER=AMD64 Family 16 Model 4 Stepping 2, AuthenticAMD</value>
-    <value type="QString">PROCESSOR_LEVEL=16</value>
-    <value type="QString">PROCESSOR_REVISION=0402</value>
+    <value type="QString">PROCESSOR_IDENTIFIER=x86 Family 6 Model 15 Stepping 6, GenuineIntel</value>
+    <value type="QString">PROCESSOR_LEVEL=6</value>
+    <value type="QString">PROCESSOR_REVISION=0f06</value>
     <value type="QString">PROGRAMDATA=C:\ProgramData</value>
-    <value type="QString">PROGRAMFILES=C:\Program Files (x86)</value>
-    <value type="QString">PROGRAMFILES(X86)=C:\Program Files (x86)</value>
-    <value type="QString">PROGRAMW6432=C:\Program Files</value>
+    <value type="QString">PROGRAMFILES=C:\Program Files</value>
+    <value type="QString">PSMODULEPATH=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\</value>
     <value type="QString">PUBLIC=C:\Users\Public</value>
     <value type="QString">QTDIR=C:/Qt/2009.05-rc1/qt</value>
     <value type="QString">SESSIONNAME=Console</value>
     <value type="QString">SYSTEMDRIVE=C:</value>
     <value type="QString">SYSTEMROOT=C:\Windows</value>
-    <value type="QString">TEMP=C:\Temp</value>
-    <value type="QString">TMP=C:\Temp</value>
-    <value type="QString">USERDOMAIN=windwalker</value>
+    <value type="QString">TEMP=C:\Users\er\AppData\Local\Temp</value>
+    <value type="QString">TMP=C:\Users\er\AppData\Local\Temp</value>
+    <value type="QString">USERDOMAIN=nelson</value>
     <value type="QString">USERNAME=er</value>
     <value type="QString">USERPROFILE=C:\Users\er</value>
     <value type="QString">VBOX_INSTALL_PATH=C:\Program Files\Sun\VirtualBox\</value>
-    <value type="QString">VS90COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\Tools\</value>
-    <value type="QString">VXIPNPPATH=C:\VXIPNP\</value>
+    <value type="QString">VS100COMNTOOLS=C:\Program Files\Microsoft Visual Studio 10.0\Common7\Tools\</value>
     <value type="QString">WINDIR=C:\Windows</value>
    </valuelist>
    <value key="abstractProcess.IgnoreReturnValue" type="bool">false</value>
@@ -374,7 +349,7 @@
    </valuelist>
    <value key="abstractProcess.command" type="QString">C:/Qt/2009.05-rc1/mingw/bin/mingw32-make.exe</value>
    <value key="abstractProcess.enabled" type="bool">true</value>
-   <value key="abstractProcess.workingDirectory" type="QString">D:/Home/er/Projects/nxtdebugmonitor</value>
+   <value key="abstractProcess.workingDirectory" type="QString">D:/Home/er/prj/nxtdebugmonitor</value>
   </valuemap>
  </data>
  <data>
@@ -384,47 +359,42 @@
    <valuelist key="abstractProcess.Environment" type="QVariantList">
     <value type="QString">ALLUSERSPROFILE=C:\ProgramData</value>
     <value type="QString">APPDATA=C:\Users\er\AppData\Roaming</value>
-    <value type="QString">COMMONPROGRAMFILES=C:\Program Files (x86)\Common Files</value>
-    <value type="QString">COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files</value>
-    <value type="QString">COMMONPROGRAMW6432=C:\Program Files\Common Files</value>
-    <value type="QString">COMPUTERNAME=WINDWALKER</value>
+    <value type="QString">COMMONPROGRAMFILES=C:\Program Files\Common Files</value>
+    <value type="QString">COMPUTERNAME=NELSON</value>
     <value type="QString">COMSPEC=C:\Windows\system32\cmd.exe</value>
     <value type="QString">DIRCMD=/O /P</value>
-    <value type="QString">DXSDK_DIR=C:\Program Files (x86)\Microsoft DirectX SDK (March 2009)\</value>
     <value type="QString">FP_NO_HOST_CHECK=NO</value>
+    <value type="QString">FTP_PROXY=http://10.138.11.217:5865/</value>
     <value type="QString">HOMEDRIVE=C:</value>
     <value type="QString">HOMEPATH=\Users\er</value>
-    <value type="QString">JAVA_HOME=C:\Program Files\Java\jre6</value>
-    <value type="QString">JDK_HOME=C:\Program Files\Java\jdk1.6.0_14</value>
-    <value type="QString">LANG=en_US.UTF8</value>
+    <value type="QString">HTTPS_PROXY=http://10.138.11.217:5865/</value>
+    <value type="QString">HTTP_PROXY=http://10.138.11.217:5865/</value>
+    <value type="QString">LANG=en_US</value>
     <value type="QString">LOCALAPPDATA=C:\Users\er\AppData\Local</value>
-    <value type="QString">LOGONSERVER=\\WINDWALKER</value>
-    <value type="QString">NUMBER_OF_PROCESSORS=3</value>
+    <value type="QString">LOGONSERVER=\\NELSON</value>
+    <value type="QString">NUMBER_OF_PROCESSORS=2</value>
     <value type="QString">OS=Windows_NT</value>
-    <value type="QString">PATH=C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\qt\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files (x86)\Common Files\Autodesk Shared\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Autodesk\Backburner\;C:\VXIPNP\WinNT\Bin;C:\Windows\system32\wbem;C:\Program Files (x86)\IVT Corporation\BlueSoleil\Mobile;C:\SysTools;C:\Program Files\Java\jdk1.6.0_14\bin;C:\Program Files\Java\jre6\bin;C:\Python26;C:\Program Files (x86)\SVN\bin;C:\Irrlicht\src\bin\Win32-VisualStudio;C:\Qt\2009.05-rc1\qt\bin;C:\Qt\2009.05-rc1\bin;C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\mingw\mingw32\bin</value>
+    <value type="QString">PATH=C:\Qt\2009.05-rc1\mingw\bin;C:\Qt\2009.05-rc1\qt\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Autodesk\Backburner\;C:\Program Files\Common Files\Autodesk Shared\;C:\SysTools;C:\Qt\2009.05-rc1\qt\bin;C:\Qt\2009.05-rc1\bin;C:\Qt\2009.05-rc1\mingw\bin</value>
     <value type="QString">PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC</value>
     <value type="QString">PROCESSOR_ARCHITECTURE=x86</value>
-    <value type="QString">PROCESSOR_ARCHITEW6432=AMD64</value>
-    <value type="QString">PROCESSOR_IDENTIFIER=AMD64 Family 16 Model 4 Stepping 2, AuthenticAMD</value>
-    <value type="QString">PROCESSOR_LEVEL=16</value>
-    <value type="QString">PROCESSOR_REVISION=0402</value>
+    <value type="QString">PROCESSOR_IDENTIFIER=x86 Family 6 Model 15 Stepping 6, GenuineIntel</value>
+    <value type="QString">PROCESSOR_LEVEL=6</value>
+    <value type="QString">PROCESSOR_REVISION=0f06</value>
     <value type="QString">PROGRAMDATA=C:\ProgramData</value>
-    <value type="QString">PROGRAMFILES=C:\Program Files (x86)</value>
-    <value type="QString">PROGRAMFILES(X86)=C:\Program Files (x86)</value>
-    <value type="QString">PROGRAMW6432=C:\Program Files</value>
+    <value type="QString">PROGRAMFILES=C:\Program Files</value>
+    <value type="QString">PSMODULEPATH=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\</value>
     <value type="QString">PUBLIC=C:\Users\Public</value>
     <value type="QString">QTDIR=C:/Qt/2009.05-rc1/qt</value>
     <value type="QString">SESSIONNAME=Console</value>
     <value type="QString">SYSTEMDRIVE=C:</value>
     <value type="QString">SYSTEMROOT=C:\Windows</value>
-    <value type="QString">TEMP=C:\Temp</value>
-    <value type="QString">TMP=C:\Temp</value>
-    <value type="QString">USERDOMAIN=windwalker</value>
+    <value type="QString">TEMP=C:\Users\er\AppData\Local\Temp</value>
+    <value type="QString">TMP=C:\Users\er\AppData\Local\Temp</value>
+    <value type="QString">USERDOMAIN=nelson</value>
     <value type="QString">USERNAME=er</value>
     <value type="QString">USERPROFILE=C:\Users\er</value>
     <value type="QString">VBOX_INSTALL_PATH=C:\Program Files\Sun\VirtualBox\</value>
-    <value type="QString">VS90COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\Tools\</value>
-    <value type="QString">VXIPNPPATH=C:\VXIPNP\</value>
+    <value type="QString">VS100COMNTOOLS=C:\Program Files\Microsoft Visual Studio 10.0\Common7\Tools\</value>
     <value type="QString">WINDIR=C:\Windows</value>
    </valuelist>
    <value key="abstractProcess.IgnoreReturnValue" type="bool">true</value>
@@ -434,7 +404,7 @@
    </valuelist>
    <value key="abstractProcess.command" type="QString">C:/Qt/2009.05-rc1/mingw/bin/mingw32-make.exe</value>
    <value key="abstractProcess.enabled" type="bool">true</value>
-   <value key="abstractProcess.workingDirectory" type="QString">D:/Home/er/Projects/nxtdebugmonitor</value>
+   <value key="abstractProcess.workingDirectory" type="QString">D:/Home/er/prj/nxtdebugmonitor</value>
    <value key="cleanConfig" type="bool">true</value>
    <valuelist key="makeargs" type="QVariantList">
     <value type="QString">clean</value>

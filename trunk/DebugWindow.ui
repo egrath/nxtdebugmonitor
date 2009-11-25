@@ -20,6 +20,9 @@
     </property>
     <item row="0" column="0">
      <widget class="QTextEdit" name="debugText">
+      <property name="undoRedoEnabled">
+       <bool>false</bool>
+      </property>
       <property name="readOnly">
        <bool>true</bool>
       </property>
@@ -36,20 +39,23 @@
      <x>0</x>
      <y>0</y>
      <width>640</width>
-     <height>19</height>
+     <height>18</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
     <property name="title">
-     <string>File</string>
+     <string>&amp;File</string>
     </property>
     <addaction name="actionFileSave"/>
     <addaction name="actionFileExit"/>
    </widget>
    <widget class="QMenu" name="menuEdit">
     <property name="title">
-     <string>Edit</string>
+     <string>&amp;Edit</string>
     </property>
+    <addaction name="actionEditSelectAll"/>
+    <addaction name="actionEditCopy"/>
+    <addaction name="separator"/>
     <addaction name="actionEditPreferences"/>
    </widget>
    <addaction name="menuFile"/>
@@ -57,21 +63,80 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionEditPreferences">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/icons/accessories-text-editor.png</normaloff>:/icons/icons/accessories-text-editor.png</iconset>
+   </property>
    <property name="text">
-    <string>Preferences</string>
+    <string>P&amp;references</string>
+   </property>
+   <property name="toolTip">
+    <string>Set up preferences</string>
    </property>
   </action>
   <action name="actionFileSave">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/icons/document-save-as.png</normaloff>:/icons/icons/document-save-as.png</iconset>
+   </property>
    <property name="text">
-    <string>Save</string>
+    <string>&amp;Save</string>
+   </property>
+   <property name="toolTip">
+    <string>Save all debug window text to file</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+S</string>
    </property>
   </action>
   <action name="actionFileExit">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/icons/process-stop.png</normaloff>:/icons/icons/process-stop.png</iconset>
+   </property>
    <property name="text">
-    <string>Exit</string>
+    <string>E&amp;xit</string>
+   </property>
+   <property name="toolTip">
+    <string>Exit the application</string>
+   </property>
+  </action>
+  <action name="actionEditSelectAll">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/icons/edit-select-all.png</normaloff>:/icons/icons/edit-select-all.png</iconset>
+   </property>
+   <property name="text">
+    <string>Select &amp;all</string>
+   </property>
+   <property name="toolTip">
+    <string>Select entire debug window text</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+A</string>
+   </property>
+  </action>
+  <action name="actionEditCopy">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/icons/edit-copy.png</normaloff>:/icons/icons/edit-copy.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Copy</string>
+   </property>
+   <property name="toolTip">
+    <string>Copy marked text to the Clipboard</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
    </property>
   </action>
  </widget>
- <resources/>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
  <connections/>
 </ui>
